@@ -1,0 +1,156 @@
+body {
+    font-family: sans-serif;
+    background-image: url(../img/black-metal-grid-2.png);
+}
+
+.header {
+    padding: 15px;
+}
+
+.box {
+    max-width: 901px;
+    margin: auto;
+    padding-top: 100px;
+
+    &__texts {
+        display: inline-block;
+        vertical-align: top;
+        text-align: right;
+        text-shadow: 7px 7px 0px rgba(0, 0, 0, 0.2);
+        margin-right: 167px;
+    }
+
+    &__title {
+        color: white;
+        font-size: 25px;
+        text-transform: uppercase;
+        letter-spacing: 0.539em;
+        margin-bottom: 30px;
+        line-height: 43px;
+    }
+
+    &__text {
+        color: white;
+        font-size: 15px;
+        text-transform: uppercase;
+        letter-spacing: 0.539em;
+        margin-right: 7px;
+        animation: blink 1.5s infinite;
+        @keyframes blink {
+            from { opacity: 2; }
+            to { opacity: 0; }
+            } 
+    }
+
+    &__icon {
+        width: 150px;
+        height: 150px;
+        background-color: yellowgreen; 
+        display: inline-block;
+        vertical-align: top; 
+        text-align: center;
+        background:red;
+        cursor: pointer;
+        transition: 3s linear;
+        position: relative;
+        z-index: 2;
+        background: black;
+        margin: 0 auto;
+        cursor: pointer;
+        transition: 2s linear;
+        -webkit-transform: rotate(160deg);
+        transform: rotate(720deg);
+        position: relative;
+    }
+
+    &__icon.one, &__icon.four, &__icon.eleven {
+        background-color:rgb(75, 75, 75);
+    }
+
+    &__icon:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(0.1);
+        cursor: pointer;
+        opacity: 0.5;
+    }
+
+    &__ic {
+        background-image: url(../img/ic_about.png);
+        width: 64px;
+        height: 64px;
+        margin-left: 43px;
+        margin-top: 31px;
+        margin-bottom: 8px;
+    }
+
+    &__ic.two {
+        background-image: url(../img/ic_dip.png);
+    }
+
+    &__ic.three {
+        background-image: url(../img/img1.jpg);
+        width: 150px;
+        height: 150px;
+        margin: 0;
+    }   
+
+    &__ic.four {
+        background-image: url(../img/ic_portfolio.png);
+    }
+
+    &__ic.five {
+        background-image: url(../img/img2.png);
+        width: 150px;
+        height: 150px;
+        margin: 0;
+    }
+
+    &__ic.six {
+        background-image: url(../img/img3.jpg);
+        width: 150px;
+        height: 150px;
+        margin: 0;
+    }
+
+    &__ic.seven {
+        background-image: url(../img/ic_coment.png);
+    }
+
+    &__ic.eight {
+        background-image: url(../img/img4.jpg);
+        width: 150px;
+        height: 150px;
+        margin: 0;
+    }
+
+    &__ic.ten {
+        background-image: url(../img/img5.jpg);
+        width: 150px;
+        height: 150px;
+        margin: 0;
+    }
+
+    &__ic.nine {
+        background-image: url(../img/ic_telegram.png);
+    }
+
+    &__ic.eleven {
+        background-image: url(../img/ic_viber.png);
+    }
+
+    &__ic.twelve {
+        background-image: url(../img/ic_whatsapp.png);
+    }
+
+    &__ic-text {
+        color: white;
+    }
+
+    &__link {
+        padding: 75px;
+        position: absolute;
+        left: 0;
+    }
+}
+

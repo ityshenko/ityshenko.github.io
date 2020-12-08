@@ -1,0 +1,230 @@
+@media screen and (max-width: 767px) {
+
+    .header {
+        padding-left: 15px;
+    }
+    .box {
+        max-width: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 27px;
+
+        &__logo {
+            margin-top: 0;
+        }
+
+        &__link {
+            margin-right: 15px;
+        }
+
+        &__menu.two {
+            padding-left: 15px;
+            display: none;
+        }    
+    }
+
+    .container {
+
+        &__img {
+            background-image: url(../img/320/base_13.png);
+            background-position: right;
+            width: 767px;
+            height: 320px;
+        }
+
+        &__img.about {
+            background-image: url(../img/320/base_13\ about.jpg);
+            background-position: bottom;
+            width: 767px;
+            height: 320px;
+        }
+
+        &__img.portfolio {
+            background-image: url(../img/320/base_portfolio.png);
+            height: 320px;
+        }
+
+
+        &__title, &__title.about, &__title.portfolio {
+            font-size: 17px;
+            margin-bottom: 11px;
+            padding: 0;
+        }
+
+        &__title-short {
+            font-size: 15px;
+            padding-left: 5px;
+        }
+
+        &__title-short.about {
+            text-align: center;
+        }
+    }
+
+    .main {
+        max-width: 320px;
+        padding-left: 0;
+
+        &__cards {
+            display: block;
+            max-width: 320px;
+        }
+
+        &__card {
+            background-image: url(../img/320/1.png);
+            width: 320px;
+            height: 310px;
+            margin-bottom: 10px;
+        }
+    
+        &__two {
+            background-image: url(../img/320/2.png);
+            width: 320px;
+            height: 222px;
+        }
+    
+        &__three {
+            background-image: url(../img/320/3.png);
+            width: 320px;
+            height: 400px;
+        }
+    
+        &__four {
+            background-image: url(../img/320/4.png);
+            width: 320px;
+            height: 222px;
+        }
+    
+        &__five {
+            background-image: url(../img/320/5.png);
+            width: 320px;
+            height: 311px;
+        }
+    
+        &__six {
+            background-image: url(../img/320/6.png);
+            width: 320px;
+            height: 222px;
+        }
+    
+        &__seven {
+            background-image: url(../img/320/7.png);
+            width: 320px;
+            height: 311px;
+        }
+    
+        &__eight {
+            background-image: url(../img/320/8.png);
+            width: 320px;
+            height: 400px;
+        }
+    
+        &__nine {
+            background-image: url(../img/320/9.png);
+            width: 320px;
+            height: 222px;
+        }
+    
+        &__ten {
+            background-image: url(../img/320/10.png);
+            width: 320px;
+            height: 311px;
+        }
+
+        &__eleven {
+            display: none;
+        }
+    }
+
+    .buttons {
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .block {
+        padding: 15px;
+        margin-bottom: 50px;
+
+        &__text.two {
+            display: none;
+        }
+
+        &__text.one {
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        &__text {
+            font-size: 12px;
+        }
+
+        &__img {
+            margin-top: 4px;
+            max-width: 518px;
+        }
+
+        &__title {
+            margin-bottom: 20px;
+            font-size: 15px;
+        }
+
+        &__title.two {
+            margin-bottom: 30px;
+        }
+    }
+
+    .section {
+        padding: 15px;
+
+        &__title {
+            font-size: 20px;
+        }
+    }
+
+    .cards {
+        max-width: 320px;
+        display: block;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .card {
+        &__img {
+            background-image: url(../img/320/card1.png);
+            max-width: 320px;
+            margin-top: 35px;
+        }
+
+        &__img.two {
+            background-image: url(../img/320/card2.png);
+        }
+
+        &__img.three {
+            background-image: url(../img/320/card3.png);
+        }
+
+        &__text {
+            padding-left: 35px;
+            max-width: 320px;
+        }
+
+        &__text:last-child {
+            margin-bottom: 0;
+        }
+
+        &__title {
+            padding-left: 0;
+        }
+
+        &__subtitle {
+            padding-left: 0;
+        }
+    }
+
+    .bl.logo.about {
+        margin-top: 0;
+    }
+  
+}

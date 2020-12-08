@@ -1,0 +1,11 @@
+@media screen and (max-width: 667px) {
+
+    .box {
+        max-width: 600px;
+      &__texts {
+          margin-left: 22px;
+      }
+    }
+}
+
+    

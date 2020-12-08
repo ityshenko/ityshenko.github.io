@@ -1,0 +1,102 @@
+@media screen and (max-width: 1365px) {
+
+    .box {
+        &__logo {
+            margin-right: 0;
+        }
+    
+        &__link {
+            margin-right: 20px;
+        }
+    }
+
+    .main {
+        max-width: 768px;
+        padding-left: 15px;
+        
+        &__cards.three {
+            display: none;
+        }
+
+        &__adapt {
+            display: block;
+        }
+
+        &__cards {
+            margin-right: 10px;   
+        }
+
+        &__eleven {
+            background-image: url(../img/11.jpg);
+            width: 360px;
+            height: 170px;
+            background-repeat: no-repeat;
+        }
+    }
+
+    .container {
+        &__img {
+            background-image: url(../img/768/base_13.png);
+            background-position: right;
+            height: 298px;
+        }
+
+        &__img.about {
+            background-image: url(../img/768/base_13\ about.jpg);
+            height: 298px;
+        }
+
+        &__img.portfolio {
+            background-image: url(../img/768/base_portfolio.png);
+            height: 298px;
+        }
+
+        &__title, &__about, {
+            font-size: 18px;
+        }
+
+        &__title-short.portfolio {
+            font-size: 14px;
+        }
+    }
+    
+    .buttons {
+        width: 200px;
+    }
+
+    .block {
+        padding: 25px;
+
+        &__img {
+            background-image: url(../img/768/rectangle_67_69.png);
+            height: 518px;
+            background-repeat: no-repeat;
+            margin-top: 76px;
+            margin-right: 20px;
+        }
+    }
+
+    .card {
+        &__img {
+            background-image: url(../img/768/card1.png);
+            background-repeat: no-repeat;
+            max-width: 231px;
+            height: 261px;
+        }
+
+        &__img.two {
+            background-image: url(../img/768/card2.png);
+            background-repeat: no-repeat;
+        }
+
+        &__img.three {
+            background-image: url(../img/768/card3.png);
+            background-repeat: no-repeat;
+        }
+
+        &__text {
+            max-width: 196px;
+        }
+    }
+}
+
