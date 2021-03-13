@@ -1,0 +1,149 @@
+.header {
+    width: 100%;
+    height: 960px;
+    background-image:linear-gradient(to right, rgba(10, 14, 52, 0.9), rgba(10, 14, 52, 0.9)),
+    url(../img/football.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.bl {
+    max-width: 1532px;
+    margin: auto;
+}
+
+.logo {
+    background-image: url(../img/logo.png);
+    width: 189px;
+    height: 33px;  
+}
+
+.logo-header {
+    max-width: 1531px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 54px;
+}
+
+.logo-text {
+    color: #cccdd4;
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 34.49px;
+    text-transform: uppercase;
+}
+
+.titles {
+    max-width: 1531px;
+    margin-top: 278px;
+}
+
+.title {
+    color: #ffffff;
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 89px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 4.96px;
+    position: relative;
+    z-index: 2;
+}
+
+.title.two {
+    line-height: 100px;
+    text-align: right;
+    z-index: 1;
+}
+
+.ic {
+    background-image: url(../img/Rectangle.png);
+    width: 254px;
+    height: 317px;
+    position: absolute;
+    left: 582px;
+    top: 289px;
+    z-index: 1;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}       
+
+.nav-link {
+    text-decoration: none;
+    padding: 13px;
+    color: #9071ea;
+    font-family: "Proxima Nova", sans-serif;
+}
+
+.nav-item {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+.list {
+    margin-top: 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 181px;
+}
+
+.button {
+    width: 311px;
+    height: 77px;
+    box-shadow: 0 16px 24px #0a0e34;
+    background-color: #5e42b0;
+    border-radius: 46px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Proxima Nova", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    padding-top: 23px;
+    padding-left: 105px;
+    padding-right: 32px;
+    position: relative;
+}
+
+.ic-button {
+    width: 36px;
+    height: 37px;
+    background-image: url(../img/Icon_-_Apple.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    position: absolute;
+    left: 43px;
+    bottom: 21px;
+}
+
+.ic-button.two {
+    background-image: url(../img/Icon_-_Google_Play.png);
+}
+
+.button-text.two {
+    width: 132px;
+}
+
+.button-text {
+    width: 147px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.button-text.short {
+    font-weight: 400;
+}
+

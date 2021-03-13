@@ -1,0 +1,278 @@
+@media screen and (max-width: 1541px) {
+    
+    .bl {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .header {
+        background-image: url(../img/768/fon.png);
+    }
+
+    .logo {
+        background-image: url(../img/768/logo768.png);
+        width: 189px;
+        height: 33px;
+    }
+
+    .titles {
+        margin-top: 194px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .title {
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 31.32px;
+        letter-spacing: 0;
+        margin-left: 68px;
+    }
+
+    .title.two {
+        text-align: left;
+        margin-left: 176px;
+        line-height: 80px;
+        margin-top: 25px;
+    }
+
+    .ic {
+        left: 260px;
+        top: 220px;
+        z-index: 0;
+    }
+
+    .ic-button.two {
+        left: 64px;
+    }
+
+    .nav-item {
+        margin-top: 155px;
+    }
+
+    .list {
+        margin-top: 0;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-link {
+        padding-right: 29px;
+    }
+
+    .buttons {
+        margin-top: 118px;
+    }
+
+    .button {
+        margin-right: 30px;
+    }
+
+    .button.two {
+        margin-right: 0;
+        padding-left: 129px;
+    }
+
+    .img-cnt {
+        background-image: url(../img/768/4-layers.png);
+        height: 630px;
+        left: -160px;
+        margin: 0;
+        top: 81px;
+    }
+
+    .img-cnt.basketball {
+        background-image: url(../img/768/4-layers-bas.png);
+        top: 37px;
+        left: 322px;
+    }
+
+    .cnt-one {
+        margin-left: 39%;
+        width: 74%;
+    }
+    .cnt-little {
+        margin-left: 39%;
+    } 
+
+    .title-cnt {
+        margin-top: 82px;
+        margin-bottom: 0px;
+    }
+
+    .title-s.two {
+        padding-top: 0;
+    }
+
+    .title-number.two {
+        padding-top: 40px;
+    }
+
+    .title-s.three {
+        padding-top: 0;
+    }
+
+    .text-cnt.two {
+        width: 441px;
+        margin-bottom: 0;
+        font-size: 18px;
+    }
+
+    .text-cnt.three {
+        width: 441px;
+        margin-bottom: 0;
+    }
+
+    .cnt-three {
+        padding: 0;
+        height: 220px;
+    }
+
+    .hidden { 
+        font-size: 0; 
+    }
+
+    .title-number {
+        padding-top: 63px;
+    }
+
+    .title-number.color {
+        padding-top: 31px;
+    }
+
+    .text-cnt {
+        margin-bottom: 42px;
+    }
+
+    .cnt-one.basketball {
+        margin-right: 45%;
+    }
+
+    .cnt-little.basketball {
+        margin-left: 3%;
+    }
+
+    .text-cnt.basketball {
+        width: 419px;
+        margin-bottom: 17px;
+    }
+
+    .text-cnt.three {
+        width: 461px;
+    }
+
+    .cnt-three.basketball {
+        height: 205px;
+    }
+
+    .title-number.color.basketball {
+        padding-top: 17px;
+    }
+
+    .cnt-two.slider {
+        display: none;
+    }
+
+    .card {
+        flex-direction: column;
+
+        &__image {
+            flex-basis: 584px;
+        }
+
+        &__number {
+            width: 116px;
+            height: 116px;
+            left: 33px;
+            top: -80px;
+        }
+
+        &__content {
+            padding: 73px 15px 63px 28px;
+            max-width: 100%;
+        }
+
+        &__title {
+            margin-bottom: 20px;
+        }
+
+        &__description {
+            max-width: 100%;
+            min-height: auto;
+            padding-bottom: 35px;
+        }
+
+        &--third {
+            max-width: 655px;
+        }
+    }
+
+    .header.two {
+        background-image: url(../img/768/fon_footer.png);
+    }
+
+    .box {
+        padding-top: 128px;
+
+        &__logo {
+            display: block;
+            margin-top: 0;
+            margin-left: 300px;
+            margin-bottom: 80px;
+        }
+
+        &__titles {
+            margin-top: 0;
+            left: 20px;
+        }
+
+        &__title {
+            font-size: 80px;
+            letter-spacing: 4.85px;
+            margin-top: 0;
+        }
+
+        &__short {
+            line-height: 60px;
+            margin-left: 14px;
+        }
+
+        &__ic-short {
+            top: 315px;
+            left: 54px;
+        }
+        
+        &__ic-long {
+            top: 250px;
+            left: 340px;
+        }
+
+        &__buttons.two {
+            margin-top: 177px;
+            margin-left: 0;
+        }
+    }
+    
+    .footer {
+        margin-top: 134px;
+        height: 95px;
+
+        &__logo {
+            display: none;
+        }
+
+        &__text{
+            display: none;
+        }
+
+        &__inner {
+            margin: auto;
+            padding-top: 37px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}  
+

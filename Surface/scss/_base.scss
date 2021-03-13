@@ -1,0 +1,459 @@
+.container {
+    overflow: hidden;
+}
+.cnt {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.cnt-one {
+    width: 50%;
+    margin-left: 50%;
+}
+
+.cnt-little {
+    width: 50%;
+    margin-left: 50%;
+}
+
+.cnt-two {
+    width: 100%;
+    height: 256px;
+    background-color: #f5f4fa;
+}
+
+.cnt-three {
+    width: 100%;
+    height: 297px;
+    background-color: #5e42b0;
+    padding-top: 23px;
+}
+
+.title-cnt {
+    color: #e7e7e7;
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 94px;
+    margin-top: 112px;
+}
+
+.title-s {
+    color: #c1c1c1;
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 34.49px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    display: inline-block;
+}
+
+.title-s.two {
+    padding-top: 64px;
+}
+
+.text-cnt {
+    max-width: 692px;
+    color: #000000;
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 60px;
+    line-height: 28px;
+}
+
+.text-cnt.two {
+    line-height: 28px;
+    max-width: 692px;
+}
+
+.text-cnt.basketball {
+    max-width: 585px;
+}
+
+.text-cnt.two.basketball {
+    max-width: 567px;
+}
+
+.img-cnt {
+    background-image: url(../img/footballer.png);
+    width: 619px;
+    height: 1105px;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: 57px;
+}
+
+.image-cnt {
+    max-width: 770px;
+    margin: auto;
+    position: relative;
+    margin-top: 0px;
+}
+
+.title-s.three{
+    padding-top: 64px;
+}
+
+.title-number {
+    color: #0a0e34;
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.49px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    display: inline-block;
+    margin-bottom: 31px;
+    position: relative;
+    top: -9px;
+    margin-right: 5px;
+}
+
+.title-number.color::after {
+    content: '';
+    height: 5px;
+    border-radius: 5px;
+    background-color: #efefef;
+    display: block;
+}
+
+.title-number::after {
+    content: "";
+    height: 5px;
+    border-radius: 5px;
+    background-color: #5e42b0;
+    display: block;
+}
+
+.cnt.basketboll {
+    margin-right: 50%;
+}
+
+.cnt-one.basketball {
+    width: 50%;
+    margin-right: 50%;
+    margin-left: 0;
+}
+
+.cnt-little.two {
+    margin-left: 328px;
+}
+
+.cnt-little.three {
+    margin-left: 328px;
+}
+
+.img-cnt.basketball {
+    width: 991px;
+    height: 815px;
+    background-image: url(../img/basketboll.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1005px;
+    left: 307px;
+    z-index: 2;
+}
+
+.cnt-three.basketball {
+    background-color: #0a0e34;
+    height: 268px;
+    padding-top: 23px;
+}
+
+.title-number.color.basketball {
+    color: #9173e6;
+}
+
+.text-cnt.three {
+    color: #ffffff;
+    width: 623px;
+    font-family: "Proxima Nova", sans-serif;
+}
+
+.cnt-little.two {
+    width: 50%;
+    margin-right: 80%;
+}
+
+.cnt-two.basketball {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container-one {
+    width: 100%;
+    height: 256px;
+    background-color: #f5f4fa;
+}
+
+.div {
+    width: 1400px;
+    margin: auto;
+}
+
+.cnt-little.basketball {
+    margin-left: 0;
+}
+
+.img-cnt.basketball {
+    background-image: url(../img/basketball.png);
+    top: 0;
+    left: 487px;
+    margin-top: 0;
+}
+
+.cards-one {
+    max-width: 1930px;
+    margin: auto;
+}
+
+.card {
+    display: flex;
+    min-height: 738px;
+
+    &__image {
+        flex-basis: 50%;
+        background-image: url(../img/shutterstock_229044115.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        &--second {
+            background-image: url(../img/bigstock-Football-players-and-coach-dis-49690757.jpg);
+        }
+
+        &--third {
+            background-image: url(../img/shutterstock_150334202.jpg);
+        }
+    }
+
+    &__content {
+        flex-basis: 50%;
+        max-width: 770px;
+        position: relative;
+        padding: 244px 15px 122px 128px;
+
+        &--reverse {
+            padding: 244px 100px 122px 0px;
+        }
+    }
+
+    &__number {
+        width: 168px;
+        height: 155px;
+        background-color: #5e42b0;
+        display: flex;
+        position: absolute;
+        top: 211px;
+        left: -84px;
+
+        &--reverse {
+            left: auto;
+            right: -84px;
+        }
+    
+        &-text {
+            margin: auto;
+            color: #f5f6f7;
+            font-family: "Proxima Nova", sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 34.49px;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+
+            &::after {
+                content: '';
+                display: block; 
+                height: 5px;
+                border-radius: 2px;
+                background-color: #ffffff;
+                opacity: 0.3;
+            }
+        }
+    }
+    
+    &__title {
+        color: #e7e7e7;
+        font-family: "Proxima Nova", sans-serif;
+        font-size: 90px;
+        font-weight: 700;
+        line-height: 90px;
+        text-transform: uppercase;
+        margin-bottom: 103px;
+    }
+
+    &__description {
+        padding-left: 6px;
+        padding-bottom: 15px;
+        max-width: 350px;
+        color: #000000;
+        font-family: "Proxima Nova", sans-serif;
+        font-size: 24px;
+        font-weight: 400;    
+        line-height: 28px;
+        letter-spacing: 1.2px;
+        min-height: 169px;
+        position: relative;
+
+        &::after {
+            content: '';
+            display: block;
+            width: 22px;
+            height: 5px;
+            border-radius: 2px;
+            background-color: #5e42b0;
+            position: absolute;
+            bottom: 0;
+            left: 6px;
+        }
+
+        &--second {
+            max-width: 410px;
+        }
+
+        &--third {
+            max-width: 550px;
+        }
+    }
+
+    &--reverse {
+        flex-direction: row-reverse;
+    }
+}
+
+.header.two {
+    background-image:linear-gradient(to right, rgba(10, 14, 52, 0.9), rgba(10, 14, 52, 0.9)),
+    url(../img/photo-1417716226287-2f8cd2e80274.jpeg.png);
+    position: relative;
+    z-index: 0;
+}
+
+.box {
+    max-width: 1000px;
+    margin: auto;
+    
+    &__logo {
+        background-image: url(../img/Artwork.png);
+        background-repeat: no-repeat;
+        width: 130px;
+        height: 137px;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 43px;
+        margin-top: 229px;
+        margin-right: 29px;
+    }
+
+    &__titles {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 228px;
+        position: relative;
+        z-index: 1;
+    }
+
+    &__title {
+        width: 775px;
+        color: #ffffff;
+        font-family: "Proxima Nova";
+        font-size: 90px;
+        font-weight: 700;
+        line-height: 60px;
+        text-transform: uppercase;
+        margin-left: 0;
+        margin-top: 22px;
+        letter-spacing: 4.85px;
+    }
+
+    &__short {
+        width: 658px;
+        color: #a496ca;
+        font-family: "Proxima Nova";
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-left: 4px;
+        margin-top: 10px;
+    }
+
+    &__ic-short {
+        background-image: url(../img/Rectangle_1_short.png);
+        width: 138px;
+        height: 157px;
+        position: absolute;
+        top: 212px;
+        left: 691px;
+    }
+
+    &__ic-long {
+        background-image: url(../img/Rectangle_long.png);
+        width: 275px;
+        height: 314px;
+        position: absolute;
+        top: 138px;
+        left: 1032px;
+    }
+
+    &__buttons.two {
+        margin-top: 163px;
+        margin-left: 43px;
+    }
+}
+
+.footer {
+    height: 171px;
+    background-image:linear-gradient(to right, rgba(10, 14, 52, 0.6), rgba(10, 14, 52, 0.9));
+    margin-top: 183px;
+
+    &__inner {
+        max-width: 1810px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 71px;
+    }
+
+    &__logo {
+        background-image: url(../img/logo.png);
+        width: 181px;
+        height: 33px;
+    }
+
+    &__socials {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__facebook {
+        background-image: url(../img/facebook.png);
+        width: 15px;
+        height: 27px;
+        margin-right: 41px;
+    }
+
+    &__twiter {
+        background-image: url(../img/twiter.png);
+        width: 27px;
+        height: 22px;
+        margin-right: 41px;
+    }
+
+    &__instagram {
+        background-image: url(../img/instagram.png);
+        width: 23px;
+        height: 25px;
+    }
+
+    &__text {
+        color: #ffffff;
+        font-family: "Proxima Nova";
+        font-size: 20px;
+    }
+}
+
