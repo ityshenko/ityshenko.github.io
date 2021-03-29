@@ -221,7 +221,6 @@
     &__button:hover {
         color:black;
         background-color:#C7B747;
-        
     }
 
     &__wrap {
@@ -295,7 +294,7 @@
     width: 1300px;
     margin: auto;
     margin-top: 53px;
-    position: relative;
+  
 
     &__img {
         background-image: url(../image/pasta4.png);
@@ -362,16 +361,7 @@
         width: 667px;
         height: 667px;
     }
-
-    &__image {
-        background-image: url(../image/list2.png);
-        width: 1492px;
-        height: 840px;
-        position: absolute;
-        top: 1399px;
-        left: -172px;
-        z-index: 1;
-    }
+ 
 }
 
 .wrap {
@@ -383,8 +373,7 @@
 
     &__box {
         width: 1350px;
-        margin: auto;
-        
+        margin: auto; 
     }
 
     &__title {
@@ -396,14 +385,14 @@
     }
 
     &__txt {
-    color:#F8F6F1;
-    font-family: sans-serif;
-    font-size:25px;
-    text-align:center;
-    width: 706px;
-    margin-top: 79px;
-    margin-left: 311px;
-    line-height: 2;
+        color:#F8F6F1;
+        font-family: sans-serif;
+        font-size:25px;
+        text-align:center;
+        width: 706px;
+        margin-top: 79px;
+        margin-left: 311px;
+        line-height: 2;
     }
 
     &__picture {
@@ -411,7 +400,7 @@
         width: 824px;
         height: 829px;
         text-align: right;
-        margin-left: 376px;
+        margin-left: 237px;
         margin-top: 49px;
         position: relative;
     }
@@ -422,7 +411,7 @@
         height: 391px;
         position: absolute;
         top: 885px;
-        left: 1695px;
+        left: 922px;
     }
 }
 

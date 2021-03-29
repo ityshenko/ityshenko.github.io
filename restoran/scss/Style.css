@@ -230,8 +230,7 @@
 .box {
   width: 1300px;
   margin: auto;
-  margin-top: 53px;
-  position: relative; }
+  margin-top: 53px; }
   .box__img {
     background-image: url(../image/pasta4.png);
     width: 613px;
@@ -282,14 +281,6 @@
     background-image: url(../image/pasta5.png);
     width: 667px;
     height: 667px; }
-  .box__image {
-    background-image: url(../image/list2.png);
-    width: 1492px;
-    height: 840px;
-    position: absolute;
-    top: 1399px;
-    left: -172px;
-    z-index: 1; }
 
 .wrap {
   background-image: url(../image/header.png);
@@ -320,7 +311,7 @@
     width: 824px;
     height: 829px;
     text-align: right;
-    margin-left: 376px;
+    margin-left: 237px;
     margin-top: 49px;
     position: relative; }
   .wrap__userpic {
@@ -329,7 +320,7 @@
     height: 391px;
     position: absolute;
     top: 885px;
-    left: 1695px; }
+    left: 922px; }
 
 .page {
   width: 1350px;
@@ -367,7 +358,7 @@
 
 @media screen and (max-width: 1365px) {
   .header {
-    width: 1440px; }
+    max-width: 768px; }
     .header__countainer {
       width: 1280px; }
 
