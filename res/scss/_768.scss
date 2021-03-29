@@ -1,0 +1,65 @@
+@media screen and (max-width: 1365px) {
+    
+    .header {
+        width: 1440px;
+
+        &__countainer {
+            width: 1280px;
+        }
+    }
+    .section {
+        margin-left: 85px;
+
+        &__cart {
+            margin-right: 151px;
+        }
+
+        &__cart.two {
+            margin-right: 127px;
+        }
+
+        &__wrap {
+            margin-right: 61px;
+        }
+       
+
+        &__title {
+            margin-left: 72px;
+        }
+
+        &__text {
+            margin-left: 34px;
+        }
+    }
+
+    .block {
+        &__button {
+            width: 406px;
+            height: 84px;
+        }
+        &__text {
+            font-size: 25px;
+        }
+    }
+
+    .box {
+        margin-left: 120px;
+    }
+
+    .wrapper {
+        width: 1440px;
+    }
+
+    .wrap {
+        width: 1440px;
+
+        &__userpic {
+            display: none;
+        }
+    }
+    .page {
+        margin-left: 100px;
+    }
+}
+
+    
