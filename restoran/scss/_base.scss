@@ -40,7 +40,7 @@
     }
         
     &__link:hover {
-        color: rgb(191, 204, 7); 
+        color: #C7B747; 
     }
     
     &__input {
@@ -83,10 +83,11 @@
         font-size:18px;
         font-weight: bold;
         letter-spacing: 3px;
+        box-shadow: 0 40px 60px rgba(0,0,0,0.8);
     }
 
     &__button:hover {
-        background-color: yellow;
+        background-color: #C7B747;
     }
 
     &__text {
@@ -149,7 +150,7 @@
         font-family:sans-serif;
         font-size:23px;
         text-align:center;
-        margin-top: 68px;
+        margin-top: 128px;
     }
 
     &__cart {
@@ -167,6 +168,8 @@
         width: 334px;
         height: 316px;
         margin-top: 94px;
+        box-shadow: 0 40px 60px rgba(0,0,0,0.8);
+        border-radius: 50%;
     }
 
     &__img.two {
@@ -185,7 +188,7 @@
         color:#343434;
         font-family:sans-serif;
         font-size:29px;
-        text-align:center;
+        text-align:left;
         margin-top: 63px;
         font-weight: bold;
     }
@@ -196,7 +199,7 @@
         color:#343434;
         font-family:sans-serif;
         font-size:23px;
-        text-align:center;
+        text-align:left;
         margin-top: 21px; 
     }
 
@@ -211,10 +214,13 @@
         color:#FFFFFF;
         font-family:sans-serif;
         font-size:28px;
+        box-shadow: 0 40px 60px rgba(0,0,0,0.8);
+        margin-bottom: 35px;
     }
 
     &__button:hover {
-        color:yellow;
+        color:black;
+        background-color:#C7B747;
         
     }
 
@@ -222,6 +228,245 @@
         display: flex;
         justify-content: center;
         margin-bottom: 49px;
+    }
+}
+
+.wrapper {
+    background-color: #27292C;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 592px;
+
+    &__wrap {
+        width: 1350px;
+        margin: auto;
+        padding-top: 98px;
+    }
+    
+    &__subject {
+        color:#FFFFFF;
+        font-family: Reey;
+        font-size: 78px;
+        text-align:center;
+    }
+
+    &__aside {
+        text-align: center;
+        width: 1350px;
+    }
+
+    &__holder{
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 65px;
+    }
+
+    &__txt {
+        width: 490px;
+        font-size: 14px;
+        text-align: left;
+        font-family: sans-serif;
+        line-height: 30px;
+        color: #FFFFFF;
+        margin-top: 98px;
+    }
+
+    &__button {
+        margin-top: 74px;
+        text-align: center;
+        display: block;
+        background-color:#E9E9E9;
+        width: 271px;
+        height: 59px;
+        border-radius: 100px;
+        color:#343434;
+        font-family:sans-serif;
+        font-size:28px;
+        box-shadow: 0 40px 60px rgba(0,0,0,0.8);
+    }
+
+    &__button:hover {
+        color:black;
+        background-color: #C7B747;
+        
+    }
+}
+
+.box {
+    width: 1300px;
+    margin: auto;
+    margin-top: 53px;
+    position: relative;
+
+    &__img {
+        background-image: url(../image/pasta4.png);
+        width: 613px;
+        height: 611px;
+        margin-right: 66px;
+        box-shadow: 0 40px 20px rgba(0,0,0,0.5);
+        border-radius: 50%;
+    }
+
+    &__title {
+        color: #27292C;
+        opacity:1;
+        font-family:sans-serif;
+        font-size:58px;
+        text-align:left;
+        width: 533px;
+        margin-top: 130px;
+    }
+
+    &__text {
+        opacity:1;
+        color:#27292C;
+        font-family:sans-serif;
+        font-size:33px;
+        text-align:left;
+        width: 505px;
+        margin-top: 52px;
+    }
+
+    &__aside {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    &__button {
+        margin-top: 121px;
+        text-align: center;
+        display: block;
+        background-color:#343434;
+        width: 335px;
+        height: 76px;
+        border-radius: 150px;
+        color:#FFFFFF;
+        font-family:sans-serif;
+        font-size:28px;
+        box-shadow: 0 40px 60px rgba(0,0,0,0.8);
+        margin-bottom: 65px;
+    }
+
+    &__button:hover {
+        color:black;
+        background-color:#C7B747;
+        
+    }
+    &__content.two {
+        margin-top: 125px;
+    }
+
+    &__img.two {
+        background-image: url(../image/pasta5.png);
+        width: 667px;
+        height: 667px;
+    }
+
+    &__image {
+        background-image: url(../image/list2.png);
+        width: 1492px;
+        height: 840px;
+        position: absolute;
+        top: 1399px;
+        left: -172px;
+        z-index: 1;
+    }
+}
+
+.wrap {
+    background-image: url(../image/header.png);
+    height: 1082px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+
+    &__box {
+        width: 1350px;
+        margin: auto;
+        
+    }
+
+    &__title {
+        color:#F8F6F1;
+        font-family:Reey;
+        font-size:58px;
+        text-align:center;
+        padding-top: 141px;
+    }
+
+    &__txt {
+    color:#F8F6F1;
+    font-family: sans-serif;
+    font-size:25px;
+    text-align:center;
+    width: 706px;
+    margin-top: 79px;
+    margin-left: 311px;
+    line-height: 2;
+    }
+
+    &__picture {
+        background-image: url(../image/pizza.png);
+        width: 824px;
+        height: 829px;
+        text-align: right;
+        margin-left: 376px;
+        margin-top: 49px;
+        position: relative;
+    }
+
+    &__userpic {
+        background-image: url(../image/pizzalittle.png);
+        width: 448px;
+        height: 391px;
+        position: absolute;
+        top: 885px;
+        left: 1695px;
+    }
+}
+
+.page {
+    width: 1350px;
+    margin: auto;
+    margin-top: 293px;
+
+    &__cart {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 188px;
+    }
+
+    &__cart.three {
+        margin-right: 0px;
+    }
+
+    &__title {
+        opacity:1;
+        color:#393939;
+        font-family:Reey;
+        font-size:42px;
+        text-align:center;
+    }
+
+    &__text {
+        width: 299px;
+        opacity:1;
+        color:#343434;
+        font-family:sans-serif;
+        font-size:19px;
+        text-align:left;
+        margin-top: 50px; 
+    }
+
+    &__titlecart {
+        opacity:1; 
+        color:#3F3F3F; 
+        font-family:sans-serif; 
+        font-size:25px; 
+        text-align:center; 
+        width: 792px;
+        margin-top: 233px;
+       margin-left: 276px;
     }
 }
     
