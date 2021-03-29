@@ -212,7 +212,6 @@
     color: #FFFFFF;
     margin-top: 98px; }
   .wrapper__button {
-    margin-top: 74px;
     text-align: center;
     display: block;
     background-color: #E9E9E9;
@@ -222,7 +221,8 @@
     color: #343434;
     font-family: sans-serif;
     font-size: 28px;
-    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.8); }
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.8);
+    margin-left: 529px; }
   .wrapper__button:hover {
     color: black;
     background-color: #C7B747; }
@@ -270,7 +270,9 @@
     font-family: sans-serif;
     font-size: 28px;
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.8);
-    margin-bottom: 65px; }
+    margin-bottom: 65px;
+    display: flex;
+    justify-content: center; }
   .box__button:hover {
     color: black;
     background-color: #C7B747; }
