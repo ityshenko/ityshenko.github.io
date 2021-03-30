@@ -4,11 +4,12 @@
         max-width: 768px;
 
         &__countainer {
-            width: 1280px;
+            max-width: 768px;
         }
     }
     .section {
         margin-left: 85px;
+        max-width: 768px;
 
         &__cart {
             margin-right: 151px;
@@ -44,14 +45,15 @@
 
     .box {
         margin-left: 120px;
+        max-width: 768px;
     }
 
     .wrapper {
-        width: 1440px;
+        max-width: 768px;
     }
 
     .wrap {
-        width: 1440px;
+        max-width: 768px;
 
         &__userpic {
             display: none;
@@ -59,6 +61,7 @@
     }
     .page {
         margin-left: 100px;
+        max-width: 768px;
     }
 }
 

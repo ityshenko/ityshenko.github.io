@@ -360,10 +360,11 @@
   .header {
     max-width: 768px; }
     .header__countainer {
-      width: 1280px; }
+      max-width: 768px; }
 
   .section {
-    margin-left: 85px; }
+    margin-left: 85px;
+    max-width: 768px; }
     .section__cart {
       margin-right: 151px; }
     .section__cart.two {
@@ -382,15 +383,17 @@
     font-size: 25px; }
 
   .box {
-    margin-left: 120px; }
+    margin-left: 120px;
+    max-width: 768px; }
 
   .wrapper {
-    width: 1440px; }
+    max-width: 768px; }
 
   .wrap {
-    width: 1440px; }
+    max-width: 768px; }
     .wrap__userpic {
       display: none; }
 
   .page {
-    margin-left: 100px; } }
+    margin-left: 100px;
+    max-width: 768px; } }
