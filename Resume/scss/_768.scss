@@ -1,0 +1,48 @@
+@media screen and (max-width: 1279px) {
+
+    .box {
+
+        &__title {
+            box-shadow: 0 0 10px;
+        }
+
+        &__text.two {
+            line-height: 60px;
+        }
+    }
+
+    .section {
+        margin-right: 0px;
+        padding: 25px;
+    }
+
+    .section.two {
+        display: block;
+        padding: 50px;
+    }
+
+    .btn-order {
+        width: 265px;
+        height: 87px;
+        border: 2px solid #31363c;
+        background-color: gray;
+        text-decoration: none;
+        border-radius: 2px;
+        line-height: 47px;
+        text-align: center;
+        margin: auto;
+        padding-top: 17px;
+        
+      }
+        .a {
+          text-decoration: none;
+          color: white;
+          width: 250px;
+          height: 80px;
+          font-family: Roboto;
+          font-size: 60px;
+          text-transform: uppercase;
+          letter-spacing: 0.05em;
+      }
+}
+    

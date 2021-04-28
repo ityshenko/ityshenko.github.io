@@ -1,0 +1,54 @@
+@media screen and (max-width: 767px) {
+
+    .box {
+
+        &__title {
+            box-shadow: 0 0 10px;
+        }
+        &__text {
+            box-shadow: 0 0 0px;
+            padding: 18px;
+        }
+
+        &__text.two {
+            font-size: 26px;
+        }
+
+        &__email {
+            font-size: 18px;
+        }
+
+        &__text.three {
+            font-size: 23px;
+        }
+    }
+
+    .btn-order {
+        width: 178px;
+        height: 87px;
+        border: 2px solid #31363c;
+        background-color: gray;
+        text-decoration: none;
+        border-radius: 2px;
+        line-height: 47px;
+        text-align: center;
+        margin: auto;
+        padding-top: 17px;
+        
+      }
+        .a {
+          text-decoration: none;
+          color: white;
+          width: 250px;
+          height: 80px;
+          font-family: Roboto;
+          font-size: 35px;
+          text-transform: uppercase;
+          letter-spacing: 0.05em;
+      }
+
+    .section {
+        margin-right: 0px;
+        padding: 25px;
+    }
+}

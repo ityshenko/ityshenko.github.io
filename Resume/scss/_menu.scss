@@ -1,0 +1,179 @@
+.menu *  {
+    margin: 0;
+    padding: 0; 
+    text-align: center;
+}
+
+   .menu ul,
+   .menu ol  {
+    list-style: none;
+    padding-top: 20px;
+}
+
+   .menu > ul {
+    display: flex;
+    justify-content: center;
+}
+   .menu > ul li {
+    position: relative;
+    border-right: 1px solid #c7c8ca;
+}
+
+   .menu > ul li:first-child {
+    border-left: 1px solid #b2b3b5;
+}
+
+   .menu > ul li:last-child {
+    border-right: 1px solid #babbbd;
+}
+
+   .menu > ul li > a i.fa {
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    font-size: 18px;
+}
+
+   .menu > ul li a {
+    display: block;
+    background: rgb(201,201,201);
+    background: -moz-linear-gradient(top,  rgba(201,201,201,1) 0%, rgba(246,246,246,1) 2%, rgba(196,197,199,1) 98%, rgba(117,117,119,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(201,201,201,1) 0%,rgba(246,246,246,1) 2%,rgba(196,197,199,1) 98%,rgba(117,117,119,1) 100%);
+    background: linear-gradient(to bottom,  rgba(201,201,201,1) 0%,rgba(246,246,246,1) 2%,rgba(196,197,199,1) 98%,rgba(117,117,119,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#757577',GradientType=0 );
+    padding: 15px 30px 15px 40px;
+    font-size: 14px;
+    color: #454547;
+    text-decoration: none;
+    text-transform:uppercase;
+    transition: all 0.3s ease;
+}
+
+   .menu li a:hover {
+    background: rgb(224,225,229);
+    background: -moz-linear-gradient(top,  rgba(224,225,229,1) 0%, rgba(69,69,71,1) 2%, rgba(69,69,71,1) 98%, rgba(224,225,229,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(224,225,229,1) 0%,rgba(69,69,71,1) 2%,rgba(69,69,71,1) 98%,rgba(224,225,229,1) 100%);
+    background: linear-gradient(to bottom,  rgba(224,225,229,1) 0%,rgba(69,69,71,1) 2%,rgba(69,69,71,1) 98%,rgba(224,225,229,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e1e5', endColorstr='#e0e1e5',GradientType=0 );
+    color: #ffffff;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+}
+   
+   .menu li ul {
+    position: absolute;
+    min-width: 150px;
+    display: none;
+}
+
+   .menu li > ul li {
+    border: 1px solid #c7c8ca;
+}
+
+   .menu li > ul li a {
+    padding: 10px;
+    text-transform: none;
+    background: #e4e4e5;
+}
+
+   .menu li > ul li ul {
+    position: absolute;
+    right: -150px;
+    top: 0;
+}
+
+   .menu li:hover > ul {
+    display: block;
+}
+
+   .menu [type="checkbox"],
+   .menu label.toggleSubmenu {
+    display: none;
+}
+
+   .menu label.toggleMenu {
+    background: rgb(201,201,201);
+    background: -moz-linear-gradient(top,  rgba(201,201,201,1) 0%, rgba(246,246,246,1) 2%, rgba(196,197,199,1) 98%, rgba(117,117,119,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(201,201,201,1) 0%,rgba(246,246,246,1) 2%,rgba(196,197,199,1) 98%,rgba(117,117,119,1) 100%);
+    background: linear-gradient(to bottom,  rgba(201,201,201,1) 0%,rgba(246,246,246,1) 2%,rgba(196,197,199,1) 98%,rgba(117,117,119,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#757577',GradientType=0 );
+    display: none;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+}
+
+   .menu label.toggleMenu .fa {
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    font-size: 18px;
+}
+
+   @media all and (max-width: 768px) {
+    .menu {
+     overflow: hidden;
+    }
+
+    .menu ul {
+     display: block;
+     max-height: 0;
+     transition: max-height 0.3s;
+    }
+
+    .menu li>ul li ul {
+     position: absolute;
+     right: auto;
+     top: auto;
+    }
+
+    .menu label.toggleMenu {
+     display: block;
+    }
+
+    input.toggleMenu:checked + label.toggleMenu {
+     background: #000;
+     color: #fff;
+    }
+
+    input.toggleMenu:checked ~ ul,
+    input.toggleSubmenu:checked ~ ul {
+     display: block;
+     position: relative;
+     max-height: 5000px;
+     transition: max-height 2s ease-in;
+    }
+
+    .menu label.toggleSubmenu {
+     position: absolute;
+     top: 0;
+     right: 0;
+     width: 100%;
+     height: 100%;
+     cursor: pointer;
+     display: block;
+    }
+
+    input.toggleSubmenu:checked ~ a {
+     background: #454547;
+     color: #fff;
+    }
+
+    .menu label.toggleSubmenu .fa:before {
+     content: "\f0d7";
+     color: #454547;
+    }
+
+    .menu label.toggleSubmenu .fa {
+     position: absolute;
+     top: 15px;
+     right: 30px;
+    }
+
+    .menu input.toggleSubmenu:checked ~ label.toggleSubmenu .fa::before {
+     content: "\f0d8";
+     color: #ffffff;
+    }
+}
