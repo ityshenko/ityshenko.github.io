@@ -100,23 +100,6 @@ body {
     margin: auto;
     margin-top: 186px; }
 
-.container__link {
-  font-family: PT Sans;
-  font-size: 14px;
-  line-height: 18px;
-  text-transform: uppercase;
-  color: #969696;
-  text-decoration: none; }
-.container__link:hover {
-  color: white; }
-.container__li {
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 40px;
-  margin-top: 31px; }
-.container__li:last-child {
-  margin-right: 0; }
-
 @media screen and (max-width: 1200px) {
   .box {
     margin: 1px; }
