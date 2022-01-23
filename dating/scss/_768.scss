@@ -1,0 +1,28 @@
+@media screen and (max-width: 1106px) {
+    
+    .header {
+        padding: 8px;
+        &__logos {
+            max-width: 605px;
+        }
+    }
+
+    .box {
+        max-width: 605px;
+        padding-top: 30px;
+        text-align: center;
+       
+        &__texts {
+            margin-right: 0;
+            margin-left: 25px;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+
+        &__container {
+            display: inline-block;
+        }
+    }
+}
+
+    

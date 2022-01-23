@@ -1,0 +1,182 @@
+@media screen and (max-width: 738px) {
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .logo-header {
+        position: absolute;
+        top: 163px;
+        margin-top: 0;
+    }
+    
+    .list{
+        margin-top: 39px;
+    }
+
+    .list .nav-link {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 10px;
+    }
+    
+    .box-input {
+        max-width: 340px;
+        position: absolute;
+        top: 550px;
+        left: 11px;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+
+    .text-header {
+        text-align: center;
+    }
+
+    .menu {
+        height: 0;
+    }
+
+    .box-img {
+        width: 100%;        
+    }
+
+    .input-filed {
+        max-width: 270px;
+        margin-left: 34px;
+    }
+
+    .input {
+        max-width: 250px;
+    }
+
+    .checkbox {
+        margin-left: 0px;
+    }
+
+    .checkbox-text {
+        font-size: 16px;
+    }
+
+    .button {
+        padding-left: 70px;
+        padding-right: 70px;
+        margin-left: 0px;
+    }
+
+    .title-services {
+        margin-top: 444px;
+        font-size: 40px;
+    }
+
+    .block-card {
+        margin-left: 100px;
+    }
+
+    .title {
+        font-size: 24px;
+        margin-top: 192px;
+    }
+
+    .bg {
+        height: 199px;
+        display: flex;
+  flex-direction: column;
+    }
+
+    .txt-bl {
+        text-align: center;
+        margin-bottom: 13px;
+    }
+
+    .button-two {
+        margin: auto;
+    }
+
+    .wrap {
+        max-width: 231px;
+        display: block;
+        margin: auto;
+        padding-bottom: 1px;
+    }
+
+    .wrap-card {
+        margin-bottom: 35px;
+        padding-bottom: 35px;
+    }
+
+    .inner {
+        max-width: 737px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inner-one {
+        margin: auto;
+    }
+
+    .inner-two {
+        margin: auto;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .title-comment {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+
+    .txt-comment {
+        padding-left: 0px;
+        text-align: center;
+        margin-bottom: 175px;
+    }
+
+    .txt-comment.two {
+        max-width: 368px;
+        padding: 0px;
+        margin-bottom: 139px;
+    }
+
+    .icon {
+        left: 141px;
+    }
+
+    .icon.two {
+        top: 123px;
+        left: 141px;
+        margin-left: 0px;
+    }
+
+    .ic {
+        margin-right: 5px;
+    }
+
+    .logo.footer {
+        padding-left: 32px;
+        margin-top: 33px;
+    }
+
+    .text-footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .container-bg {
+        margin-top: 46px;
+    }
+
+    .socials {
+        padding-left: 16px;
+        width: 350px;
+    }
+
+    .box-title {
+        height: 0px;
+    }
+    
+}
