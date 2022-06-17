@@ -45,18 +45,18 @@
   .container__img {
     background-image: url(../img/base_13.png);
     width: 1600px;
-    height: 650px;
+    height: 530px;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center; }
   .container__img.about {
     background-image: url(../img/base_13\ about.jpg);
-    height: 650px;
+    height: 530px;
     background-position: bottom; }
   .container__img.portfolio {
     background-image: url(../img/base_portfolio.png);
-    height: 650px; }
+    height: 530px; }
   .container__titles {
     max-width: 800px; }
   .container__title {
@@ -64,8 +64,9 @@
     letter-spacing: 0.1em;
     color: #ffffff;
     background-color: #000000;
-    padding: 15px 41px 15px 47px;
-    margin-bottom: 49px; }
+    padding: 25px 25px 25px 25px;
+    margin-bottom: 49px;
+    border-radius: 20px; }
   .container__title-short {
     font-size: 18px;
     letter-spacing: 0.4em;
@@ -79,6 +80,8 @@
     display: inline-block;
     vertical-align: top;
     margin-right: 30px; }
+  .main__cards:hover {
+    border: #000000; }
   .main__cards:last-child {
     margin-right: 0; }
   .main__card {
@@ -87,7 +90,8 @@
     height: 350px;
     margin-bottom: 32px;
     display: inline-block;
-    vertical-align: top; }
+    vertical-align: top;
+    border-radius: 20px; }
   .main__two {
     background-image: url(../img/2.png);
     width: 360px;
@@ -142,7 +146,8 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: #ffffff; }
+    color: #ffffff;
+    border-radius: 20px; }
 
 .bl {
   display: flex;
@@ -176,7 +181,8 @@
   .block__img {
     background-image: url(../img/rectangle_67_69.png);
     width: 531px;
-    height: 600px; }
+    height: 600px;
+    border-radius: 20px; }
   .block__statistic {
     max-width: 540px; }
   .block__title {
@@ -244,7 +250,8 @@
   background-image: url(../img/card1.png);
   width: 358px;
   height: 438px;
-  margin-bottom: 35px; }
+  margin-bottom: 35px;
+  border-radius: 20px; }
 .card__img.two {
   background-image: url(../img/card2.png); }
 .card__img.three {
@@ -257,7 +264,7 @@
   text-transform: uppercase;
   letter-spacing: 0.04em;
   color: #041608;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding-left: 34px; }
 .card__subtitle {
   font-size: 16px;
@@ -314,7 +321,8 @@
     background-image: url(../img/768/base_portfolio.png);
     height: 298px; }
   .container__title, .container__about {
-    font-size: 18px; }
+    font-size: 25px;
+    padding: 10px; }
   .container__title-short.portfolio {
     font-size: 14px; }
 

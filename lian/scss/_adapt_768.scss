@@ -51,8 +51,9 @@
             height: 298px;
         }
 
-        &__title, &__about, {
-            font-size: 18px;
+        &__title, &__about { 
+            font-size: 25px;
+            padding: 10px;
         }
 
         &__title-short.portfolio {

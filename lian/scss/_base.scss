@@ -55,7 +55,7 @@
     &__img {
         background-image: url(../img/base_13.png);
         width: 1600px;
-        height: 650px;
+        height: 530px;
         background-repeat: no-repeat;
         display: flex;
         justify-content: center;
@@ -64,13 +64,13 @@
 
     &__img.about {
         background-image: url(../img/base_13\ about.jpg);
-        height: 650px;
+        height: 530px;
         background-position: bottom;
     }
 
     &__img.portfolio {
         background-image: url(../img/base_portfolio.png);
-        height: 650px;
+        height: 530px;
     }
 
     &__titles {
@@ -82,8 +82,9 @@
         letter-spacing: 0.1em;
         color: #ffffff;
         background-color: #000000;
-        padding: 15px 41px 15px 47px;
+        padding: 25px 25px 25px 25px;
         margin-bottom: 49px;
+        border-radius: 20px;
     }
     
     &__title-short {
@@ -103,7 +104,12 @@
       display: inline-block;
       vertical-align: top;
       margin-right: 30px;
+      
     }
+
+    &__cards:hover {
+       border: #000000;
+      }
 
     &__cards:last-child {
         margin-right: 0;
@@ -116,6 +122,7 @@
         margin-bottom: 32px;
         display: inline-block;
         vertical-align: top;
+        border-radius: 20px;
     }
 
     &__two {
@@ -194,6 +201,7 @@
         text-transform: uppercase;
         letter-spacing: 0.05em;
         color: #ffffff;
+        border-radius: 20px;
     }
 }
 
@@ -238,6 +246,7 @@
         background-image: url(../img/rectangle_67_69.png);
         width: 531px;
         height: 600px;
+        border-radius: 20px;
     }
 
     &__statistic {
@@ -328,6 +337,7 @@
         width: 358px;
         height: 438px;
         margin-bottom: 35px;
+        border-radius: 20px;
     }
 
     &__img.two {
@@ -346,7 +356,7 @@
         text-transform: uppercase;
         letter-spacing: 0.04em;
         color: #041608;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         padding-left: 34px;
     }
 
@@ -376,9 +386,5 @@
 
 .bl.logo {
     margin-top: 73px;
-}
-
-.container {
-    
 }
 
