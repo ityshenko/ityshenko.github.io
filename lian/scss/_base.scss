@@ -7,15 +7,13 @@
     width: 1600px;
     display: flex;
     justify-content: space-around;
-    margin-bottom: 50px;
-    margin-top: 27px;
+    margin-bottom: 10px;
     
     &__logo {
-        background-image: url(../img/logo.png);
+        background-image: url(../img/logo2.png);
         width: 131px;
-        height: 35px;
         background-repeat: no-repeat;
-        margin-top: 30px;
+        margin-top: 15px;
     }
 
 
@@ -27,10 +25,12 @@
         font-weight: 400;
         color: #777777;
         margin-right: 50px;
+        font-size: 14px;
     }
-    
+
     &__menu {
-        margin-top: 40px;
+        margin-top: 15px;
+        margin-bottom: 5px;
     }
 
     &__menu.two {
@@ -66,7 +66,6 @@
         background-image: url(../img/base_13\ about.jpg);
         height: 650px;
         background-position: bottom;
-        
     }
 
     &__img.portfolio {
